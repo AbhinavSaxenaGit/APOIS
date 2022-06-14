@@ -1,0 +1,6 @@
+readSheetByRange(String sheetRange) {
+    /**
+     * @param sheetRange Pass sheet range as "SheetName!StartCell:EndColumn", example : "Student!A3:H"
+     *                   This method will return all the data as 2D List of Strings from Student sheet starting
+     *                   Column A Row 3 to Column H.
+     * @return 2D List of String
